@@ -1,0 +1,144 @@
+body{
+  background: olive;
+  margin: 10px;
+  padding: 10px;
+}
+h1{
+    font-family: cursive;
+  }
+h2{
+    font-family: cursive;
+  }
+h3{
+  font-family: cursive;
+}
+p{
+    color: black;
+    font-family: cursive;
+ }
+ span{
+   font-family: cursive;
+ }
+ #visitor_form{
+   font-size: 16px;
+   color: blue;
+   font-weight: bold;
+   font-family: cursive;
+ }
+
+ td{
+   padding-left: 10px;
+   font-family: cursive;
+ }
+ th{
+   text-align: left;
+   padding-left: 10px;
+   font-weight: bold;
+   font-family: cursive;
+ }
+
+ input[type="button"]:hover
+ {
+   background-color:green;
+ }
+
+
+input[type="button"] {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  width: 100px;
+}
+
+input[type="button"] {
+  background-color: #f7fafa;
+}
+
+input[type="button"] {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+ input[type="button"]:hover
+ {
+   background-color:green;
+ }
+
+ .places_table{
+   position: static;
+ }
+ .content
+ {
+   box-sizing: border-box;
+   margin: 50px;
+   vertical-align: center;
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+ }
+ .video{
+   display:inline-block;
+   min-width: : 33%;
+  margin-left: 10px;
+ }
+ .visitorform{
+   display:inline-block;
+   vertical-align:top;
+   min-width: : 33%;
+   margin-left: 10px;
+ }
+
+ .audio{
+   display:inline-block;
+   min-width: : 33%;
+  margin-left: 10px;
+  vertical-align:top;
+ }
+
+ .container
+ {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 50px;
+ }
+
+ #pic
+ {
+   -webkit-flex: 1;
+          flex: 1;
+          min-width: 50%;
+ }
+ #likes
+ {
+   -webkit-flex: 2;
+          flex: 2;
+          min-width: 50%;
+ }
+
+ .menu
+ {
+   position: static;
+ }
+ .welcome
+ {
+   float: right;
+   position: relative;
+   top: -50px;
+   left: -10px
+
+ }
+
+ #float_image
+ {
+   float: right;
+   position: relative;
+   left: -25px;
+   width: 50px;
+   height: 50px;
+ }
